@@ -16,6 +16,9 @@ int main(){
     for(i= 0; i < 4; i++){
             j = (rand() %17);
             printf("%s", column[i][j]);
+            if(i == 3){
+                printf("\n);
+            }
     }
 
 
